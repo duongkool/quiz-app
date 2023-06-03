@@ -1,0 +1,36 @@
+.quiz-container {
+  margin: auto;
+  h3 {
+    text-align: center;
+  }
+  .form-quiz {
+    margin: 0 200px;
+    .input-form {
+      border: 1px solid #fff;
+      border-radius: 15px;
+      padding: 8px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .required {
+      text-align: center;
+      color: #52f508;
+      font-weight: bold;
+    }
+    .btn-submit {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .submit {
+        padding: 10px 80px;
+      }
+    }
+  }
+  .selected {
+    border: 1px solid #d01624 !important;
+    color: #d01624;
+  }
+}

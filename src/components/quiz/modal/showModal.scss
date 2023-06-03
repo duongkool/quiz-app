@@ -1,0 +1,13 @@
+.modal-container {
+  .modal-body {
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .btn-ground {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+}
